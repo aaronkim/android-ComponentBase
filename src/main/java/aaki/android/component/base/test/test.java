@@ -1,8 +1,8 @@
-package com.infomark.robots.component.base.test;
+package aaki.android.component.base.test;
 
-import com.infomark.robots.component.base.data.container.BaseKeyValue;
-import com.infomark.robots.component.base.data.type.BaseValue;
-import com.infomark.robots.component.base.data.type.implement.BaseType;
+import aaki.android.component.base.data.type.BaseKeyValue;
+import aaki.android.component.base.data.type.BaseValue;
+import aaki.android.component.base.data.type.implement.BaseType;
 
 /**
  * Created by skkim on 8/25/16.

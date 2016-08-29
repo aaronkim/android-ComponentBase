@@ -1,6 +1,6 @@
-package com.infomark.robots.component.base.data.type;
+package aaki.android.component.base.data.type;
 
-import com.infomark.robots.component.base.data.type.implement.BaseType;
+import aaki.android.component.base.data.type.implement.BaseType;
 
 /**
  * Created by skkim on 8/25/16.

@@ -1,11 +1,11 @@
-package com.infomark.robots.component.base;
+package aaki.android.component.base;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
 
-import com.infomark.robots.component.base.data.container.BaseKeyValue;
-import com.infomark.robots.component.base.data.type.BaseValue;
-import com.infomark.robots.component.base.data.type.implement.BaseType;
+import aaki.android.component.base.data.type.BaseKeyValue;
+import aaki.android.component.base.data.type.BaseValue;
+import aaki.android.component.base.data.type.implement.BaseType;
 
 /**
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
@@ -20,6 +20,8 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
       e.printStackTrace();
     }
   }
+
+
 
   public void testType() throws Exception {
     BaseKeyValue intData = new BaseKeyValue("intData", new BaseValue<>("1"));

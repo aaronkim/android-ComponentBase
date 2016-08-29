@@ -1,6 +1,6 @@
-package com.infomark.robots.component.base.data.type.implement;
+package aaki.android.component.base.data.type.implement;
 
-import com.infomark.robots.component.base.BuildConfig;
+import aaki.android.component.base.BuildConfig;
 
 class BaseObject extends Object {
     protected String TAG = getClass().getSimpleName();

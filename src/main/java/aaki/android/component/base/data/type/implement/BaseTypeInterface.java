@@ -1,4 +1,4 @@
-package com.infomark.robots.component.base.data.type.implement;
+package aaki.android.component.base.data.type.implement;
 
 /**
  * Created by skkim on 8/25/16.

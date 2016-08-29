@@ -1,7 +1,4 @@
-package com.infomark.robots.component.base.data.container;
-
-import com.infomark.robots.component.base.data.type.BaseKey;
-import com.infomark.robots.component.base.data.type.BaseValue;
+package aaki.android.component.base.data.type;
 
 /**
  * Created by skkim on 8/25/16.
