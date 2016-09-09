@@ -1,4 +1,4 @@
-package aaki.android.component.base.data.type.implement;
+package aaki.component.base.data.type.implement;
 
 import aaki.android.component.base.BuildConfig;
 

@@ -1,4 +1,4 @@
-package aaki.android.component.base.data.type;
+package aaki.component.base.data.type;
 
 /**
  * Created by skkim on 8/25/16.

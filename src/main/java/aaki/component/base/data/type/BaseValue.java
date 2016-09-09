@@ -1,13 +1,13 @@
-package aaki.android.component.base.data.type;
+package aaki.component.base.data.type;
 
 import android.util.Log;
 
-import aaki.android.component.base.data.type.implement.BaseType;
+import aaki.component.base.data.type.implement.BaseDataType;
 
 /**
  * Created by skkim on 8/25/16.
  */
-public class BaseValue<T> extends BaseType<T> {
+public class BaseValue<T> extends BaseDataType<T> {
 
     public BaseValue() {
         super();

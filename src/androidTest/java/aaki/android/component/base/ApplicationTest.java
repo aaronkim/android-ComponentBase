@@ -3,9 +3,9 @@ package aaki.android.component.base;
 import android.app.Application;
 import android.test.ApplicationTestCase;
 
-import aaki.android.component.base.data.type.BaseKeyValue;
-import aaki.android.component.base.data.type.BaseValue;
-import aaki.android.component.base.data.type.implement.BaseType;
+import aaki.component.base.data.type.BaseKeyValue;
+import aaki.component.base.data.type.BaseValue;
+import aaki.component.base.data.type.implement.BaseDataType;
 
 /**
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
@@ -33,7 +33,7 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     System.out.println("value = " + intData.getValue().get());
     System.out.println();
 
-    BaseType empty = BaseType.EMPTY;
+    BaseDataType empty = BaseDataType.EMPTY;
     System.out.println(empty.get().toString());
 
   }

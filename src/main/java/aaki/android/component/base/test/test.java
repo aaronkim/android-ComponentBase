@@ -1,8 +1,9 @@
 package aaki.android.component.base.test;
 
-import aaki.android.component.base.data.type.BaseKeyValue;
-import aaki.android.component.base.data.type.BaseValue;
-import aaki.android.component.base.data.type.implement.BaseType;
+import aaki.component.base.data.type.BaseKey;
+import aaki.component.base.data.type.BaseKeyValue;
+import aaki.component.base.data.type.BaseValue;
+import aaki.component.base.data.type.implement.BaseDataType;
 
 /**
  * Created by skkim on 8/25/16.
@@ -10,12 +11,17 @@ import aaki.android.component.base.data.type.implement.BaseType;
 public class test {
     public static void main(String args[]) {
 
+        Object obj = new Object();
+        BaseKey baseKey = obj instanceof BaseKey ? ((BaseKey) obj) : null;
+        if (obj == null) {
+
+        }
+
         // 옵션 개수 검사. 옵션 없으면 에러 메시지 출력하고 종료
         if (args.length == 0) {
             System.err.println("옵션을 입력하세요");
             System.exit(1);
         }
-
 
         // 옵션 개수 출력
         System.out.println("모두 " + args.length + "개의 옵션을 입력하셨군요.");
@@ -45,7 +51,7 @@ public class test {
         System.out.println("value = " + intData.getValue().get());
         System.out.println();
 
-        BaseType empty = BaseType.EMPTY;
+        BaseDataType empty = BaseDataType.EMPTY;
         System.out.println(empty.get().toString());
     }
 }
